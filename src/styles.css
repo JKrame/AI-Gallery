@@ -44,12 +44,12 @@ html {
     float:left;
 }
 
-.searchbar{
+.searchbar-container{
     overflow: hidden;
     padding-right: 1em;
 }
 
-.searchbar input{
+.searchbar{
     width:100%;
 }
 
