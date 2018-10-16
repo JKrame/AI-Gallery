@@ -14,6 +14,7 @@ html {
     white-space: nowrap;
     display: inline-block;
     width:100%;
+    margin: 10px 0px;
 }
 
 .content-80{
@@ -51,6 +52,8 @@ html {
 
 .searchbar{
     width:100%;
+    border:solid .5px #666;
+    padding:2px;
 }
 
 .github-widget{
