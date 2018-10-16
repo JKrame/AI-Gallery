@@ -1,6 +1,7 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     line-height: 1.5;
+    margin: 3em;
 }
 
 html {
@@ -30,7 +31,7 @@ html {
     color: white;
     align-content: center;
     text-align: center;
-    margin: 3px 10px
+    padding: 3px 10px
 }
 
 .searchbtn{
