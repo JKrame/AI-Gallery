@@ -28,14 +28,12 @@ html {
 .button{
     background-color: #0179D8;
     color: white;
-    margin:10px;
     align-content: center;
     text-align: center;
+    margin: 3px 10px
 }
 
 .searchbtn{
-    right:0;
-    left:0;
     float:right;
 }
 
