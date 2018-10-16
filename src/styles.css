@@ -27,6 +27,7 @@ html {
 }
 
 .button{
+    border: 0px;
     background-color: #0179D8;
     color: white;
     align-content: center;
