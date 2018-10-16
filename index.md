@@ -6,9 +6,11 @@ classes: landing
 
 <link rel="stylesheet" type="text/css" href="./src/content-scroller.css"/>
 <link rel="stylesheet" type="text/css" href="./src/styles.css"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="./dist/bundle.js"></script>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="./src/config.js"></script>
+<script type="text/javascript" src="./src/populate-content.js"></script>
 
 # Azure AI Gallery
 
@@ -64,7 +66,7 @@ classes: landing
 
 <div class="content-container">
     <input type="button" id="btnSearch" value="Search" class="button btnSearch  searchbtn noselect"/>
-    <div  class="searchbar"><input type='text' id='keyword' name='keyword' value='mnist' class="searchbar" max-width="100%"></div>
+    <div  class="searchbar"><input type='text' id='keyword' name='keyword' value='mnist' class="searchbar" width="100%"></div>
 </div>
 
 <div class="github-widget" data-type="search"></div>
@@ -82,11 +84,11 @@ classes: landing
     </div>
 </div>
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        console.log("the doc will see you now.")
-    })
+<script>
+    fetchContent("models");
+    fetchContent("examples");
 </script>
-
 <script type="text/javascript" src="./src/content-scroller.js"></script>
+<script src="./dist/bundle.js"></script>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+<script type="text/javascript" src="./src/browse.js"></script>
