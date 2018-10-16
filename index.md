@@ -13,11 +13,7 @@ classes: landing
 <script type="text/javascript" src="./src/populate-content.js"></script>
 
 # Azure AI Gallery
-
-<div id="datadump">
-
-</div>
-
+##Experimental
 
 ### The AI Gallery enables a growing community of developers and data scientists to browse curated AI examples, including:
 <br/>
