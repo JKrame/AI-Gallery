@@ -48,6 +48,10 @@ html {
     padding-right: 1em;
 }
 
+.searchbar input{
+    width:100%;
+}
+
 .github-widget{
     width:100%;
     max-width: 100% !important;
